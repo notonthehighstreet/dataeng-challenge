@@ -1,15 +1,15 @@
 # Not On the High Street Data Engineering Code Challenge
 
 # 
-This is a benchmark test to ensure that data engineers, Python developers can show a good understanding of the fundamentals of reading, coding and delivering to a timeframe.
+This is a benchmark test to ensure that data engineers can show a good understanding of the fundamentals of reading, coding and delivering to a timeframe.
 
 ## Rules
- A link to a public Git repository with your final solution must be provided within 48 hours of receipt of the test. 
+ A link to a public Git repository with your final solution must be provided within 48 hours of receipt of the test. Please let your talent partner know if you need additional time.
 Guidelines
 1. To help understand how you approach the problem, we will assess your use of source control and how you build to the final solution, checking what is committed 
 along each step (hint: frequent push)
 2. The code must be written in Python 3.
-3. You may use any frameworks or libraries to complete this task, excluding data analysis libraries like Pandas.
+3. You may use any frameworks or libraries to complete this task, **excluding** data analysis libraries like Pandas.
 4. Unit tests must be provided
 
 ## Objectives
@@ -36,6 +36,8 @@ A data file will be provided alongside this test. The dataset is a CSV which con
 
   
 4. Instantiate a sqlite db and insert all records from the original csv into it.
+
+5. Using the sqlite db you just created, answer question 2 again, this time only making use of sql.
   
 ## Assessment
 Your code will be reviewed and assessed according to the following:
@@ -45,8 +47,9 @@ Your code will be reviewed and assessed according to the following:
 
 ## Helpful Tips
 If you struggle completing the test or have concerns over certain aspects that is okay – just highlight it to us when you submit your test. 
-Explain what you couldn't get working and steps you took to solve the problem. Whilst we want to see completed tests 
+Explain what you couldn't get working and steps you took to solve the problem. Whilst we want to see the completed task 
 it is just as important for us to see how you approached an issue and attempted to find a solution. 
 Do not overthink your solution. Keep it simple and use what you know. Write tests only for your code. 
-Don't forget the ReadMe Avoid creating additional requirements.
+Don't forget the ReadMe. 
+Avoid creating additional requirements.
 
